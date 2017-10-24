@@ -1,0 +1,75 @@
+name: posco
+channels:
+- menpo
+- defaults
+dependencies:
+- backports=1.0=py35_0			-> X
+- backports.weakref=1.0rc1=py35_0	-> O
+- bleach=1.5.0=py35_0			-> O
+- cairo=1.14.8=0			-> X
+- certifi=2016.2.28=py35_0		-> O
+- cudatoolkit=8.0=1			-> X
+- cudnn=6.0.21=cuda8.0_0		-> X
+- cycler=0.10.0=py35_0			-> O
+- dbus=1.10.20=0			-> X
+- expat=2.1.0=0				-> X
+- fontconfig=2.12.1=3			-> X
+- freetds=1.00.9=0			-> X
+- freetype=2.5.5=2			-> X
+- glib=2.50.2=1
+- gst-plugins-base=1.8.0=0
+- gstreamer=1.8.0=0
+- harfbuzz=0.9.39=2
+- hdf5=1.8.17=2
+- html5lib=0.9999999=py35_0		-> O
+- icu=54.1=0
+- jbig=2.1=0
+- jpeg=9b=0
+- libffi=3.2.1=1
+- libgcc=5.2.0=0
+- libgfortran=3.0.0=1
+- libiconv=1.14=0
+- libpng=1.6.30=1
+- libprotobuf=3.4.0=0
+- libtiff=4.0.6=3
+- libxcb=1.12=1
+- libxml2=2.9.4=0
+- markdown=2.6.9=py35_0			-> O
+- matplotlib=2.0.2=np111py35_0		-> O
+- mkl=2017.0.3=0
+- numpy=1.11.3=py35_0			-> O
+- olefile=0.44=py35_0			-> O		
+- openssl=1.0.2l=0
+- pandas=0.20.1=np111py35_0		-> O	
+- pcre=8.39=1
+- pillow=4.2.1=py35_0			-> O			
+- pip=9.0.1=py35_1			-> O
+- pixman=0.34.0=0
+- protobuf=3.4.0=py35_0			-> O
+- pymssql=2.1.3=py35_0			-> O
+- pyparsing=2.2.0=py35_0		-> O
+- pyqt=5.6.0=py35_2			-> X
+- python=3.5.4=0			-> X
+- python-dateutil=2.6.1=py35_0		-> O
+- pytz=2017.2=py35_0			-> O
+- qt=5.6.2=5
+- readline=6.2=2
+- scikit-learn=0.18.1=np111py35_1	-> O
+- scipy=0.19.0=np111py35_0		-> O
+- setuptools=36.4.0=py35_1		-> O
+- sip=4.18=py35_0			-> O
+- six=1.10.0=py35_0			-> O
+- sqlite=3.13.0=0
+- tensorflow-gpu=1.3.0=0		-> O
+- tensorflow-gpu-base=1.3.0=py35cuda8.0cudnn6.0_0 -> X
+- tensorflow-tensorboard=0.1.5=py35_0	-> O
+- tk=8.5.18=0
+- werkzeug=0.12.2=py35_0		-> O
+- wheel=0.29.0=py35_0			-> O (0.30.0 install)
+- xz=5.2.3=0
+- zlib=1.2.11=0
+- opencv3=3.2.0=np111py35_0
+- pip:
+  - tensorflow==1.3.0
+prefix: /home/hoon/miniconda3/envs/posco
+
